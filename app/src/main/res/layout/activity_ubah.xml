@@ -11,8 +11,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ubah Destinasi"
-        android:id="@+id/tv_ubahDestinasi"
+        android:text="Ubah Mahasiswa"
+        android:id="@+id/tv_ubahMahasiswa"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
@@ -23,24 +23,24 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/et_npm"
+        android:hint="NPM Mahasiswa"
+        android:inputType="text"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/et_nama"
-        android:hint="Nama Destinasi"
+        android:hint="Nama Mahasiswa"
         android:inputType="text"
         android:textSize="24sp"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/et_alamat"
-        android:hint="Alamat"
-        android:inputType="text"
-        android:textSize="24sp"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/et_jam"
-        android:hint="Jam"
+        android:id="@+id/et_prodi"
+        android:hint="Nama Prodi"
         android:inputType="text"
         android:textSize="24sp"/>
 
